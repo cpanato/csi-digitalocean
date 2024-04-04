@@ -1,4 +1,5 @@
 # github.com/Microsoft/go-winio v0.4.17
+## explicit
 github.com/Microsoft/go-winio
 github.com/Microsoft/go-winio/pkg/guid
 # github.com/blang/semver v3.5.1+incompatible
@@ -7,11 +8,6 @@ github.com/blang/semver
 # github.com/container-storage-interface/spec v1.5.0
 ## explicit
 github.com/container-storage-interface/spec/lib/go/csi
-# github.com/containerd/containerd v1.5.8
-## explicit
-github.com/containerd/containerd/errdefs
-github.com/containerd/containerd/log
-github.com/containerd/containerd/platforms
 # github.com/digitalocean/go-metadata v0.0.0-20180111002115-15bd36e5f6f7
 ## explicit
 github.com/digitalocean/go-metadata
@@ -19,10 +15,10 @@ github.com/digitalocean/go-metadata
 ## explicit
 github.com/digitalocean/godo
 # github.com/docker/distribution v2.7.1+incompatible
+## explicit
 github.com/docker/distribution/digestset
 github.com/docker/distribution/reference
-github.com/docker/distribution/registry/api/errcode
-# github.com/docker/docker v20.10.2+incompatible
+# github.com/docker/docker v24.0.9+incompatible
 ## explicit
 github.com/docker/docker/api
 github.com/docker/docker/api/types
@@ -48,6 +44,7 @@ github.com/docker/go-connections/nat
 github.com/docker/go-connections/sockets
 github.com/docker/go-connections/tlsconfig
 # github.com/docker/go-units v0.4.0
+## explicit
 github.com/docker/go-units
 # github.com/fsnotify/fsnotify v1.4.9
 github.com/fsnotify/fsnotify
@@ -76,8 +73,6 @@ github.com/google/go-querystring/query
 # github.com/google/uuid v1.2.0
 ## explicit
 github.com/google/uuid
-# github.com/gorilla/mux v1.8.0
-## explicit
 # github.com/kubernetes-csi/csi-test/v4 v4.3.0
 ## explicit
 github.com/kubernetes-csi/csi-test/v4/pkg/sanity
@@ -85,6 +80,8 @@ github.com/kubernetes-csi/csi-test/v4/utils
 # github.com/magiconair/properties v1.8.1
 ## explicit
 github.com/magiconair/properties/assert
+# github.com/moby/term v0.0.0-20200312100748-672ec06f55cd
+## explicit
 # github.com/morikuni/aec v1.0.0
 ## explicit
 # github.com/nxadm/tail v1.4.5
@@ -127,8 +124,10 @@ github.com/onsi/gomega/matchers/support/goraph/node
 github.com/onsi/gomega/matchers/support/goraph/util
 github.com/onsi/gomega/types
 # github.com/opencontainers/go-digest v1.0.0
+## explicit
 github.com/opencontainers/go-digest
 # github.com/opencontainers/image-spec v1.0.1
+## explicit
 github.com/opencontainers/image-spec/specs-go
 github.com/opencontainers/image-spec/specs-go/v1
 # github.com/pkg/errors v0.9.1
@@ -189,6 +188,7 @@ golang.org/x/text/unicode/norm
 golang.org/x/xerrors
 golang.org/x/xerrors/internal
 # google.golang.org/appengine v1.6.5
+## explicit
 google.golang.org/appengine/internal
 google.golang.org/appengine/internal/base
 google.golang.org/appengine/internal/datastore
@@ -244,6 +244,7 @@ google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
 # google.golang.org/protobuf v1.27.1
+## explicit
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
 google.golang.org/protobuf/internal/descfmt
@@ -279,6 +280,8 @@ google.golang.org/protobuf/types/known/wrapperspb
 gopkg.in/tomb.v1
 # gopkg.in/yaml.v2 v2.4.0
 gopkg.in/yaml.v2
+# gotest.tools/v3 v3.0.3
+## explicit
 # k8s.io/apimachinery v0.22.5
 ## explicit
 k8s.io/apimachinery/pkg/util/clock
